@@ -1,0 +1,48 @@
+{
+    "name": "vdvcoder/payment",
+    "description": "",
+    "keywords": [
+        "payment package"
+    ],
+    "homepage": "https://github.com/polyfier/payment",
+    "license": "The Unlicense",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Van de Velde Olivier",
+            "email": "olivier@bulldots.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "mollie/laravel-mollie": "^2.0",
+        "brick/math": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "vdvcoder\\Payment\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "vdvcoder\\Payment\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "vdvcoder\\Payment\\PaymentServiceProvider"
+            ],
+            "aliases": {
+                "Payment": "vdvcoder\\Payment\\PaymentFacade"
+            }
+        }
+    }
+}
