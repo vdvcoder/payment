@@ -1,6 +1,6 @@
 <?php
 
-namespace vdvcoder\Payment\App;
+namespace Vdvcoder\Payment\app;
 
 use Illuminate\Database\Eloquent\Model;
 use Mollie\Api\Resources\Payment as MolliePayment;
