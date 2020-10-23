@@ -1,6 +1,6 @@
 <?php
 
-namespace vdvcoder\Payment;
+namespace Vdvcoder\Payment;
 
 use Illuminate\Support\ServiceProvider;
 
