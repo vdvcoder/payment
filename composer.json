@@ -1,6 +1,6 @@
 {
     "name": "vdvcoder/payment",
-    "description": "",
+    "description": "payment package for laravel",
     "keywords": [
         "payment package"
     ],
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "vdvcoder\\Payment\\": "src"
+            "Vdvcoder\\Payment\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "vdvcoder\\Payment\\Tests\\": "tests"
+            "Vdvcoder\\Payment\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -38,10 +38,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "vdvcoder\\Payment\\PaymentServiceProvider"
+                "Vdvcoder\\Payment\\PaymentServiceProvider"
             ],
             "aliases": {
-                "Payment": "vdvcoder\\Payment\\PaymentFacade"
+                "Payment": "Vdvcoder\\Payment\\PaymentFacade"
             }
         }
     }
