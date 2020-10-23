@@ -1,11 +1,11 @@
 <?php
 
-namespace vdvcoder\Payment\App\Providers;
+namespace Vdvcoder\Payment\app\Providers;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Routing\RouteAction;
 use Illuminate\Support\Str;
-use vdvcoder\Payment\App\Payment;
+use Vdvcoder\Payment\app\Payment;
 
 abstract class PaymentProvider
 {
