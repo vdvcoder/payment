@@ -1,9 +1,9 @@
 <?php
 
-namespace vdvcoder\Payment\App\Http\Controllers;
+namespace Vdvcoder\Payment\app\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use vdvcoder\Payment\App\Payment;
+use vdvcoder\Payment\app\Payment;
 
 class ValidatePaymentController extends Controller
 {
