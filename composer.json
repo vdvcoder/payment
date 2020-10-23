@@ -5,7 +5,7 @@
         "payment package"
     ],
     "homepage": "https://github.com/polyfier/payment",
-    "license": "The Unlicense",
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
