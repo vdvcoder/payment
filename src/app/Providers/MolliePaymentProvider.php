@@ -1,12 +1,12 @@
 <?php
 
-namespace vdvcoder\Payment\App\Providers;
+namespace Vdvcoder\Payment\app\Providers;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Mollie\Laravel\Facades\Mollie;
-use vdvcoder\Payment\App\Payment;
+use Vdvcoder\Payment\app\Payment;
 
 class MolliePaymentProvider extends PaymentProvider
 {
