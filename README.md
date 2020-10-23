@@ -6,6 +6,6 @@
 
 ```php artisan vendor:publish ```
 
-*Select: vdvcoder\Payment\PaymentServiceProvider*
+*Select: Vdvcoder\Payment\PaymentServiceProvider*
 
 ```php artisan migrate```
