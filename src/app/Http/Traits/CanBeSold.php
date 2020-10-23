@@ -1,9 +1,9 @@
 <?php
 
-namespace vdvcoder\Payment\App\Http\Traits;
+namespace Vdvcoder\Payment\app\Http\Traits;
 
 use Mollie\Api\Types\PaymentStatus;
-use vdvcoder\Payment\App\Payment;
+use Vdvcoder\Payment\app\Payment;
 
 trait CanBeSold
 {
