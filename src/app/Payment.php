@@ -8,6 +8,8 @@ use Mollie\Laravel\Facades\Mollie;
 
 class Payment extends Model
 {
+    protected $guarded = ['id'];
+    
     protected $dates = [
         'paid_at'
     ];
